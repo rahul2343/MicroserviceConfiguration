@@ -1,4 +1,3 @@
-
 spring:
   application:
     name: WELCOME-API
@@ -6,6 +5,7 @@ spring:
     admin:
       client:
         url: http://localhost:1111/
+        
 
 management:
   endpoints:
@@ -13,3 +13,5 @@ management:
       exposure:
         include: '*'
 
+app:
+  msg: This is Welcome API.
