@@ -1,6 +1,6 @@
 spring:
   application:
-    name: WELCOME-API
+    name: WELCOME-API-TEST
   boot:
     admin:
       client:
