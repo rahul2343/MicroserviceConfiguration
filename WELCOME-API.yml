@@ -13,4 +13,3 @@ management:
       exposure:
         include: '*'
 
-msg: This is Welcome API
