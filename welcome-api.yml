@@ -1,6 +1,4 @@
-app:
-  msg: "This is Welcome API."
-  
+
 spring:
   application:
     name: WELCOME-API
