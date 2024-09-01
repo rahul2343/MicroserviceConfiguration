@@ -13,3 +13,5 @@ management:
       exposure:
         include: '*'
 
+app:
+  msg: This is Welcome server.
