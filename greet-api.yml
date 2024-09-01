@@ -1,5 +1,4 @@
-#server:
-#  port: 8081
+
 spring:
   application:
     name: GREET-API
@@ -7,8 +6,6 @@ spring:
     admin:
       client:
         url: http://localhost:1111/
-  config:
-    import: optional:configserver:http://localhost:4444
         
 
 management:
