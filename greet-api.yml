@@ -14,3 +14,5 @@ management:
       exposure:
         include: '*'
 
+app:
+  msg: This is Greet API.
