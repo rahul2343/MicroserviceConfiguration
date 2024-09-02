@@ -26,6 +26,9 @@ management:
     web:
       exposure:
         include: '*'
+  health:
+    circuitbreakers:
+      enabled: true
 
 app:
   msg: This is Welcome API.
