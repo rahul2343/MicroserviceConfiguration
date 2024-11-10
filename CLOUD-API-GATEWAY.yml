@@ -10,18 +10,20 @@ spring:
         uri: lb://WELCOME-API
         predicates:
         - Path=/welcome
-        filter:
+        filters:
         - AuthenticationFilter
       - id: greet-api
         uri: lb://GREET-API
         predicates:
         - Path=/greet
-        filter:
+        filters:
         - AuthenticationFilter
       - id: AUTH-SERVICE
         uri: lb://AUTH-SERVICE
         predicates:
         - Path=/**
+        filters:
+        - AuthenticationFilter
   application:
     name: CLOUD-API-GATEWAY
   boot:
