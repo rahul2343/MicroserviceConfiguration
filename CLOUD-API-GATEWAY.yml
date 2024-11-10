@@ -10,10 +10,14 @@ spring:
         uri: lb://WELCOME-API
         predicates:
         - Path=/welcome
+        filter:
+        - AuthenticationFilter
       - id: greet-api
         uri: lb://GREET-API
         predicates:
         - Path=/greet
+        filter:
+        - AuthenticationFilter
       - id: AUTH-SERVICE
         uri: lb://AUTH-SERVICE
         predicates:
